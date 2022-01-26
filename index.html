@@ -14,8 +14,8 @@
             <div>{{email}}</div>
         </div>
         <hr>
-        <div v-for="email in emails">
-            <div v-if="emails.length===10">{{email}}</div>
+        <div v-if="emails.length===10">
+            <div v-for="email in emails">{{email}}</div>
         </div>
     </div>
    <script src="js/script.js"></script> 
